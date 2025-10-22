@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en-IN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#d24b87" />
+  <title>About — Moments — The Cake Shop (Mumbai)</title>
+  <meta name="description" content="The story of Moments — The Cake Shop in Mumbai: craft, care, and celebration. Premium cakes, pastries, waffles & namkeen." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;800&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root { --cream: 340 60% 97%; --brown-900: 330 40% 10%; --brown-800: 330 25% 18%; --brown-700: 330 20% 24%; --gold: 330 68% 52%; --gold-600: 330 68% 60%; --gold-500: 330 60% 56%; --bg: hsl(var(--cream)); --text: hsl(var(--brown-800)); --surface: hsl(var(--cream)); --surface-2: hsl(340 45% 92%); --border: hsl(330 25% 82%); --accent: hsl(var(--gold)); --accent-2: hsl(var(--gold-600)); --muted: hsl(36 30% 88%); --shadow: 0 20px 40px rgba(0,0,0,.18); --radius: 14px; --radius-sm: 10px; --radius-lg: 22px; --header-h: 74px; }
+    @media (prefers-color-scheme: dark) { :root { --bg: hsl(var(--brown-900)); --text: hsl(var(--cream)); --surface: hsl(var(--brown-900)); --surface-2: hsl(var(--brown-700)); --border: hsl(var(--brown-700)); --accent: hsl(var(--gold-600)); --accent-2: hsl(45 70% 62%); --muted: hsl(330 20% 18%); --shadow: 0 24px 50px rgba(0,0,0,.45); } }
+    *,*::before,*::after{box-sizing:border-box} html{scroll-behavior:smooth} body{margin:0;font-family:Poppins,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial;color:var(--text);background:radial-gradient(1200px 800px at 75% -10%, rgba(201,162,39,0.12), transparent 60%),radial-gradient(800px 600px at 10% -5%, rgba(201,162,39,0.10), transparent 60%),var(--bg);line-height:1.6}
+    img{max-width:100%;display:block} a{text-decoration:none;color:inherit}
+    .container{width:min(1200px,92%);margin-inline:auto} .header{position:sticky;top:0;z-index:1000;height:var(--header-h);backdrop-filter:saturate(140%) blur(6px);background:linear-gradient(180deg, rgba(245,239,230,.85), rgba(245,239,230,.55));border-bottom:1px solid var(--border);padding:0 16px} .header-inner{height:100%;display:flex;align-items:center;justify-content:space-between;gap:16px;max-width:100%}
+    .brand{display:flex;align-items:center;gap:12px;min-width:0;flex-shrink:0}.brand-mark{width:38px;height:38px;border-radius:10px;background:radial-gradient(120% 100% at 30% 20%, rgba(255,255,255,.45), rgba(255,255,255,.08) 40%),linear-gradient(135deg,hsl(var(--gold-600)),hsl(var(--gold)));box-shadow:0 6px 18px rgba(210,75,135,.35), inset 0 1px 0 rgba(255,255,255,.35);display:grid;place-items:center;color:#fff;font-weight:800;flex-shrink:0} .brand h1{font-size:clamp(1rem, 2vw, 1.35rem);margin:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis} .brand div:last-child{min-width:0}
+    nav{flex-grow:1} nav ul{list-style:none;margin:0;padding:0;display:flex;gap:8px;align-items:center;justify-content:flex-end} .nav-link{padding:10px 14px;border-radius:999px;border:1px solid transparent;transition:.25s;font-weight:500;white-space:nowrap;font-size:clamp(.9rem, 1.3vw, 1rem)} .nav-link:hover{background:var(--surface-2);border-color:var(--border)} .nav-link.active{background:var(--accent);color:#1d140b;box-shadow:0 6px 18px rgba(210,75,135,.35)} .menu-btn{display:none;border:1px solid var(--border);background:var(--surface);border-radius:10px;padding:10px;flex-shrink:0;cursor:pointer;gap:5px} .menu-btn span{display:block;width:22px;height:2px;background:var(--text);border-radius:2px;transition:all .3s ease} .menu-btn[aria-expanded="true"] span:nth-child(1){transform:translateY(7px) rotate(45deg)} .menu-btn[aria-expanded="true"] span:nth-child(2){opacity:0} .menu-btn[aria-expanded="true"] span:nth-child(3){transform:translateY(-7px) rotate(-45deg)}
+    @media (max-width:920px){.brand h1{font-size:clamp(.95rem, 1.8vw, 1.2rem)}} @media (max-width:780px){ .menu-btn{display:inline-flex;flex-direction:column;justify-content:center;align-items:center;flex-shrink:0} nav{position:fixed;inset:var(--header-h) 0 auto 0;background:rgba(245,239,230,.98);backdrop-filter:saturate(140%) blur(8px);border-bottom:1px solid var(--border);transform:translateY(-100%);transition:transform .35s ease;width:100%;z-index:999;box-shadow:0 8px 24px rgba(0,0,0,.12)} nav.open{transform:translateY(0)} nav ul{padding:20px 14px;flex-direction:column;align-items:stretch;gap:6px} .nav-link{text-align:center;padding:14px;font-size:clamp(.95rem, 1.5vw, 1rem);border-radius:12px} .brand h1{font-size:clamp(.85rem, 1.5vw, 1.1rem)}} @media (max-width:480px){.header{padding:0 12px} .brand h1{font-size:clamp(.75rem, 1.2vw, 1rem)} .brand-mark{width:32px;height:32px;font-size:.9rem} .nav-link{padding:12px;font-size:.95rem}}
+    .hero{position:relative;min-height:clamp(420px,60vh,700px);display:grid;place-items:center;overflow:clip}
+    .hero::before{content:"";position:absolute;inset:0;background:url('https://images.unsplash.com/photo-1527515545085-5db817172677?q=80&w=2000&auto=format&fit=crop') center/cover no-repeat fixed;filter:saturate(110%) contrast(105%)}
+    .hero::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg, rgba(42,26,16,.55), rgba(42,26,16,.35) 30%, rgba(245,239,230,.2) 75%, rgba(245,239,230,1))}
+    .hero-inner{position:relative;z-index:1;text-align:center;padding:70px 0}
+    .eyebrow{display:inline-block;padding:6px 12px;border-radius:999px;background:rgba(201,162,39,.18);color:hsl(var(--gold));border:1px solid rgba(201,162,39,.35);letter-spacing:.2em;text-transform:uppercase;font-size:.72rem;font-weight:600}
+    .hero h2{font-family:"Playfair Display",serif;font-size:clamp(2rem,4.5vw,3.5rem);line-height:1.1;margin:18px 0 8px;color:#fff;text-shadow:0 10px 30px rgba(0,0,0,.35)}
+    .section{padding:clamp(60px, 10vw, 80px) 0} .heading{display:grid;gap:10px;margin-bottom:26px} .heading h3{font-family:"Playfair Display",serif;font-size:clamp(1.6rem,3vw,2.2rem);margin:0} .heading p{font-size:clamp(.9rem, 1.5vw, 1rem)}
+    .about-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:clamp(20px, 5vw, 38px);align-items:center} @media(max-width:900px){.about-grid{grid-template-columns:1fr;gap:clamp(16px, 4vw, 26px)}} @media(max-width:620px){.section{padding:clamp(40px, 8vw, 60px) 0}}
+    .img-wrap{border-radius:22px;overflow:hidden;box-shadow:var(--shadow)} .img-wrap img{width:100%;height:100%;object-fit:cover;transform:scale(1.02);transition:transform 1.2s ease} .img-wrap:hover img{transform:scale(1.08)}
+    [data-animate]{opacity:0;transform:translateY(18px);transition:opacity .8s, transform .8s} .in-view{opacity:1 !important;transform:none !important}
+    footer{padding:40px 0;border-top:1px solid var(--border);background:linear-gradient(180deg, rgba(255,255,255,.6), rgba(255,255,255,.35))}
+  </style>
+</head>
+<body>
+  <header class="header">
+    <div class="container header-inner">
+      <div class="brand"><div class="brand-mark">M</div><div><h1 style="margin:0">Moments — The Cake Shop</h1><div class="tagline">Cakes • Pastries • Cupcakes • Waffles</div></div></div>
+      <button class="menu-btn" id="menuBtn" aria-label="Open menu" aria-controls="siteNav" aria-expanded="false"><span></span><span></span><span></span></button>
+      <nav id="siteNav" aria-label="Primary">
+        <ul>
+          <li><a class="nav-link" href="{% url 'momentsapp:index' %}">Home</a></li>
+          <li><a class="nav-link" href="{% url 'momentsapp:about' %}">About</a></li>
+          <li><a class="nav-link" href="{% url 'momentsapp:cakes' %}">Fancy Cakes</a></li>
+          <li><a class="nav-link" href="{% url 'momentsapp:contact' %}">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero" aria-label="About Moments — The Cake Shop, Mumbai">
+    <div class="hero-inner container" data-animate>
+      <span class="eyebrow">Craft • Care • Community</span>
+      <h2>Rooted in warmth, baked with intention.</h2>
+      <p style="color:#fff;opacity:.9;max-width:760px;margin:0 auto">Our story begins in Mumbai with a simple promise: to create a haven where celebrations bloom and flavors linger. Every recipe and every detail—designed to make you feel at home.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="heading" data-animate>
+        <h3>From a Single Spark</h3>
+        <p>Moments started as a tiny cake shop with a big heart. Today, we remain obsessively focused on quality and connection���celebrating the ritual of coffee and the joy of cake.</p>
+      </div>
+      <div class="about-grid">
+        <div class="img-wrap" data-animate>
+          <img src="https://images.unsplash.com/photo-1506782077005-17b3c223cb88?q=80&w=1600&auto=format&fit=crop" alt="Cozy café interior with warm lights" />
+        </div>
+        <div data-animate>
+          <h4 style="font-family:'Playfair Display',serif;margin:0 0 10px;font-size:1.4rem">Our Philosophy</h4>
+          <p>We source ethically, bake carefully, and craft in small batches. Our bakers and decorators collaborate daily to pair textures and aromas—creating experiences that are both familiar and delightfully new.</p>
+          <p>Pull up a chair, take a deep breath, and stay awhile.</p>
+          <div style="display:flex;gap:10px;margin-top:14px">
+            <a class="btn" href="{% url 'momentsapp:cakes' %}" style="display:inline-flex;align-items:center;padding:12px 18px;border:1px solid var(--border);border-radius:999px;background:var(--surface)">Explore Cakes</a>
+            <a class="btn" href="{% url 'momentsapp:contact' %}" style="display:inline-flex;align-items:center;padding:12px 18px;border:1px solid var(--border);border-radius:999px;background:linear-gradient(135deg, var(--accent-2), var(--accent));color:#1d140b">Visit Us</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container" style="display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap">
+      <p style="margin:0">© <span id="year"></span> Moments — The Cake Shop • Crafted with care</p>
+      <div style="display:flex;gap:10px"><a class="btn" href="{% url 'momentsapp:index' %}#home" style="display:inline-flex;align-items:center;padding:10px 14px;border:1px solid var(--border);border-radius:999px;background:var(--surface)">Back to Home</a></div>
+    </div>
+  </footer>
+
+  <script>
+    const menuBtn=document.getElementById('menuBtn'); const nav=document.getElementById('siteNav'); menuBtn.addEventListener('click',()=>{const open=nav.classList.toggle('open'); menuBtn.setAttribute('aria-expanded',String(open));}); nav.addEventListener('click',(e)=>{ if(e.target.closest('a')) nav.classList.remove('open');});
+    const links=[...document.querySelectorAll('.nav-link')]; const current=window.location.pathname; links.forEach(l=>{const href=l.getAttribute('href')||''; if(href===current) l.classList.add('active');});
+    const hero=document.querySelector('.hero'); const parallax=()=>{ if(!hero) return; const y=window.scrollY*.35; hero.style.backgroundPosition=`center calc(50% + ${y}px)`; }; window.addEventListener('scroll',parallax);
+    const revealEls=document.querySelectorAll('[data-animate]'); const io=new IntersectionObserver((entries)=>{entries.forEach(en=>{ if(en.isIntersecting) en.target.classList.add('in-view');});},{threshold:.18}); revealEls.forEach(el=>io.observe(el));
+    document.getElementById('year').textContent=new Date().getFullYear();
+  </script>
+</body>
+</html>

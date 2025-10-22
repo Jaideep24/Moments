@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en-IN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#d24b87" />
+  <title>Contact — Moments — The Cake Shop (Mumbai)</title>
+  <meta name="description" content="Contact Moments — The Cake Shop, Mumbai. Send a message, find us on the map, and connect via social media." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;800&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root { --cream: 340 60% 97%; --brown-900: 330 40% 10%; --brown-800: 330 25% 18%; --brown-700: 330 20% 24%; --gold: 330 68% 52%; --gold-600: 330 68% 60%; --gold-500: 330 60% 56%; --bg: hsl(var(--cream)); --text: hsl(var(--brown-800)); --surface: hsl(var(--cream)); --surface-2: hsl(340 45% 92%); --border: hsl(330 25% 82%); --accent: hsl(var(--gold)); --accent-2: hsl(var(--gold-600)); --muted: hsl(36 30% 88%); --shadow: 0 20px 40px rgba(0,0,0,.18); --radius: 14px; --radius-sm: 10px; --radius-lg: 22px; --header-h: 74px; }
+    @media (prefers-color-scheme: dark){ :root{ --bg:hsl(var(--brown-900)); --text:hsl(var(--cream)); --surface:hsl(var(--brown-900)); --surface-2:hsl(var(--brown-700)); --border:hsl(var(--brown-700)); --accent:hsl(var(--gold-600)); --accent-2:hsl(45 70% 62%); --shadow:0 24px 50px rgba(0,0,0,.45);} }
+    *,*::before,*::after{box-sizing:border-box} html{scroll-behavior:smooth} body{margin:0;font-family:Poppins,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial;color:var(--text);background:radial-gradient(1200px 800px at 75% -10%, rgba(201,162,39,0.12), transparent 60%),radial-gradient(800px 600px at 10% -5%, rgba(201,162,39,0.10), transparent 60%),var(--bg);line-height:1.6}
+    img{max-width:100%;display:block} a{text-decoration:none;color:inherit}
+    .container{width:min(1200px,92%);margin-inline:auto} .header{position:sticky;top:0;z-index:1000;height:var(--header-h);backdrop-filter:saturate(140%) blur(6px);background:linear-gradient(180deg, rgba(245,239,230,.85), rgba(245,239,230,.55));border-bottom:1px solid var(--border);padding:0 16px} .header-inner{height:100%;display:flex;align-items:center;justify-content:space-between;gap:16px;max-width:100%}
+    .brand{display:flex;align-items:center;gap:12px;min-width:0;flex-shrink:0}.brand-mark{width:38px;height:38px;border-radius:10px;background:radial-gradient(120% 100% at 30% 20%, rgba(255,255,255,.45), rgba(255,255,255,.08) 40%),linear-gradient(135deg,hsl(var(--gold-600)),hsl(var(--gold)));box-shadow:0 6px 18px rgba(210,75,135,.35), inset 0 1px 0 rgba(255,255,255,.35);display:grid;place-items:center;color:#fff;font-weight:800;flex-shrink:0} .brand h1{font-size:clamp(1rem, 2vw, 1.35rem);margin:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis} .brand div:last-child{min-width:0}
+    nav{flex-grow:1} nav ul{list-style:none;margin:0;padding:0;display:flex;gap:8px;align-items:center;justify-content:flex-end} .nav-link{padding:10px 14px;border-radius:999px;border:1px solid transparent;transition:.25s;font-weight:500;white-space:nowrap;font-size:clamp(.9rem, 1.3vw, 1rem)} .nav-link:hover{background:var(--surface-2);border-color:var(--border)} .nav-link.active{background:var(--accent);color:#1d140b;box-shadow:0 6px 18px rgba(210,75,135,.35)} .menu-btn{display:none;border:1px solid var(--border);background:var(--surface);border-radius:10px;padding:10px;flex-shrink:0;cursor:pointer;gap:5px} .menu-btn span{display:block;width:22px;height:2px;background:var(--text);border-radius:2px;transition:all .3s ease} .menu-btn[aria-expanded="true"] span:nth-child(1){transform:translateY(7px) rotate(45deg)} .menu-btn[aria-expanded="true"] span:nth-child(2){opacity:0} .menu-btn[aria-expanded="true"] span:nth-child(3){transform:translateY(-7px) rotate(-45deg)}
+    @media (max-width:920px){.brand h1{font-size:clamp(.95rem, 1.8vw, 1.2rem)}} @media (max-width:780px){ .menu-btn{display:inline-flex;flex-direction:column;justify-content:center;align-items:center;flex-shrink:0} nav{position:fixed;inset:var(--header-h) 0 auto 0;background:rgba(245,239,230,.98);backdrop-filter:saturate(140%) blur(8px);border-bottom:1px solid var(--border);transform:translateY(-100%);transition:transform .35s ease;width:100%;z-index:999;box-shadow:0 8px 24px rgba(0,0,0,.12)} nav.open{transform:translateY(0)} nav ul{padding:20px 14px;flex-direction:column;align-items:stretch;gap:6px} .nav-link{text-align:center;padding:14px;font-size:clamp(.95rem, 1.5vw, 1rem);border-radius:12px} .brand h1{font-size:clamp(.85rem, 1.5vw, 1.1rem)}} @media (max-width:480px){.header{padding:0 12px} .brand h1{font-size:clamp(.75rem, 1.2vw, 1rem)} .brand-mark{width:32px;height:32px;font-size:.9rem} .nav-link{padding:12px;font-size:.95rem}}
+    .section{padding:clamp(60px, 10vw, 80px) 0} .heading{display:grid;gap:10px;margin-bottom:26px} .heading h3{font-family:"Playfair Display",serif;font-size:clamp(1.6rem,3vw,2.2rem);margin:0} .heading p{font-size:clamp(.9rem, 1.5vw, 1rem)}
+    .grid{display:grid;grid-template-columns:1.1fr .9fr;gap:clamp(16px, 4vw, 22px)} @media(max-width:900px){.grid{grid-template-columns:1fr}}
+    .field{display:grid;gap:6px;margin-bottom:14px} .field label{font-weight:600;font-size:clamp(.9rem, 1.3vw, 1rem)} .input,.textarea{border:1px solid var(--border);background:var(--surface);padding:clamp(10px, 2vw, 12px) clamp(12px, 2vw, 14px);border-radius:12px;font:inherit;color:inherit;font-size:clamp(.9rem, 1.2vw, 1rem)} .textarea{min-height:clamp(100px, 20vh, 120px);resize:vertical} .error{color:#8b1e1e;font-size:clamp(.75rem, 1vw, .85rem);min-height:18px}
+    .form-card{background:linear-gradient(180deg, rgba(255,255,255,.85), rgba(255,255,255,.65));border:1px solid var(--border);border-radius:16px;padding:clamp(14px, 3vw, 18px);box-shadow:var(--shadow)}
+    .map{border:0;width:100%;height:100%;min-height:clamp(280px, 50vh, 360px);border-radius:16px;overflow:hidden;box-shadow:var(--shadow)} @media(max-width:620px){.section{padding:clamp(40px, 8vw, 60px) 0}}
+    .socials{display:flex;gap:12px} .social-btn{width:42px;height:42px;display:grid;place-items:center;border-radius:10px;border:1px solid var(--border);background:var(--surface);transition:box-shadow .3s, transform .15s, background .3s} .social-btn:hover{background:var(--surface-2);box-shadow:0 10px 24px rgba(201,162,39,.25), 0 0 0 4px rgba(201,162,39,.15);transform:translateY(-2px)}
+    footer{padding:40px 0;border-top:1px solid var(--border);background:linear-gradient(180deg, rgba(255,255,255,.6), rgba(255,255,255,.35))}
+  </style>
+</head>
+<body>
+  <header class="header">
+    <div class="container header-inner">
+      <div class="brand"><div class="brand-mark">M</div><div><h1 style="margin:0">Moments — The Cake Shop</h1><div class="tagline">Cakes • Pastries • Cupcakes • Waffles</div></div></div>
+      <button class="menu-btn" id="menuBtn" aria-label="Open menu" aria-controls="siteNav" aria-expanded="false"><span></span><span></span><span></span></button>
+      <nav id="siteNav" aria-label="Primary">
+        <ul>
+          <li><a class="nav-link" href="{% url 'momentsapp:index' %}">Home</a></li>
+          <li><a class="nav-link" href="{% url 'momentsapp:about' %}">About</a></li>
+          <li><a class="nav-link" href="{% url 'momentsapp:cakes' %}">Fancy Cakes</a></li>
+          <li><a class="nav-link" href="{% url 'momentsapp:contact' %}">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="section">
+    <div class="container">
+      <div class="heading">
+        <h3>Contact Us</h3>
+        <p>We are in Mumbai, Maharashtra. Send us a note or come by for a warm cup and a friendly chat.</p>
+      </div>
+      <div class="grid">
+        <div class="form-card">
+          <form id="contactForm" novalidate>
+            <div class="field"><label for="name">Name</label><input class="input" id="name" name="name" type="text" placeholder="Your name" required minlength="2" /><div class="error" id="nameError"></div></div>
+            <div class="field"><label for="email">Email</label><input class="input" id="email" name="email" type="email" placeholder="you@example.com" required /><div class="error" id="emailError"></div></div>
+            <div class="field"><label for="message">Message</label><textarea class="textarea" id="message" name="message" placeholder="Say hello..." required minlength="10"></textarea><div class="error" id="messageError"></div></div>
+            <div style="display:flex;gap:10px;align-items:center;justify-content:space-between;flex-wrap:wrap"><button class="btn" type="submit" style="display:inline-flex;align-items:center;padding:12px 18px;border:1px solid var(--border);border-radius:999px;background:linear-gradient(135deg, var(--accent-2), var(--accent));color:#1d140b">Send Message</button><div class="socials" aria-label="Social media">
+              <a class="social-btn" href="https://instagram.com" target="_blank" rel="noreferrer" aria-label="Instagram" title="Instagram"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5Z" stroke="currentColor" stroke-width="1.5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37Z" stroke="currentColor" stroke-width="1.5"/><path d="M17.5 6.5h.01" stroke="currentColor" stroke-linecap="round"/></svg></a>
+              <a class="social-btn" href="https://facebook.com" target="_blank" rel="noreferrer" aria-label="Facebook" title="Facebook"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3V2Z" stroke="currentColor" stroke-width="1.5"/></svg></a>
+              <a class="social-btn" href="https://x.com" target="_blank" rel="noreferrer" aria-label="Twitter" title="Twitter"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 4l16 16M20 4 4 20" stroke="currentColor" stroke-width="1.5"/><path d="M17 4H14L7 14v6h3l7-10V4Z" stroke="currentColor" stroke-width="1.5" opacity=".4"/></svg></a>
+            </div></div>
+          </form>
+        </div>
+        <div>
+          <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3768.1298126413717!2d72.8343354!3d19.1895317!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b7adb7aefa6d%3A0x83740f465a87b7a6!2sMoments-%20The%20cake%20shop!5e0!3m2!1sen!2sin!4v1761155932371!5m2!1sen!2sin" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container" style="display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap">
+      <p style="margin:0">© <span id="year"></span> Moments — The Cake Shop • Crafted with care</p>
+      <div style="display:flex;gap:10px"><a class="btn" href="{% url 'momentsapp:index' %}#home" style="display:inline-flex;align-items:center;padding:10px 14px;border:1px solid var(--border);border-radius:999px;background:var(--surface)">Back to Home</a></div>
+    </div>
+  </footer>
+
+  <script>
+    const menuBtn=document.getElementById('menuBtn'); const nav=document.getElementById('siteNav'); menuBtn.addEventListener('click',()=>{const open=nav.classList.toggle('open'); menuBtn.setAttribute('aria-expanded',String(open));}); nav.addEventListener('click',(e)=>{ if(e.target.closest('a')) nav.classList.remove('open');});
+    const links=[...document.querySelectorAll('.nav-link')]; const current=window.location.pathname; links.forEach(l=>{const href=l.getAttribute('href')||''; if(href===current) l.classList.add('active');});
+    const form=document.getElementById('contactForm'); const nameEl=document.getElementById('name'); const emailEl=document.getElementById('email'); const msgEl=document.getElementById('message'); const nameErr=document.getElementById('nameError'); const emailErr=document.getElementById('emailError'); const msgErr=document.getElementById('messageError'); const emailRe=/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/i; function validate(){ let ok=true; nameErr.textContent=''; emailErr.textContent=''; msgErr.textContent=''; if(nameEl.value.trim().length<2){nameErr.textContent='Please enter at least 2 characters.'; ok=false;} if(!emailRe.test(emailEl.value.trim())){emailErr.textContent='Please enter a valid email.'; ok=false;} if(msgEl.value.trim().length<10){msgErr.textContent='Please enter at least 10 characters.'; ok=false;} return ok;} form.addEventListener('submit',(e)=>{ e.preventDefault(); if(!validate()) return; form.reset(); alert('Thank you! Your message has been received.');}); ['input','blur'].forEach(evt=>{ nameEl.addEventListener(evt,validate); emailEl.addEventListener(evt,validate); msgEl.addEventListener(evt,validate); });
+    document.getElementById('year').textContent=new Date().getFullYear();
+  </script>
+</body>
+</html>
